@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+main ()
+{
+char a;
+printf ("Input the the letter to check if it is uppercase or lowercase= ");
+scanf ("%c",&a);
+    if (isupper(a))
+
+        printf ("Uppercase");
+        else printf ("Lowercase");
+
+}
